@@ -7,7 +7,7 @@ Judo is a martial art, and a Judoka is a person who practices Judo (for more inf
 
 -----
 
-## Description about the database: 
+## Description about the database
 
 The Judo ecosystem involves all activities related to the Judo martial art sport. 
 The aim of the data model is to capture and organize the data produced or consumed by these activities:
@@ -47,26 +47,29 @@ A Judo teacher may work at multiple clubs, while a Judoka is affiliated with onl
 10. Judokas can earn points by winning contests, with 20 points awarded for each win. Once a judoka has accumulated 100 points, they can take the necessary knowledge tests to qualify for the black belt.
 
 -----
-## Entity-Relationship (ER): 
+## Getting Started
+
+1. A text file containing CREATE orders using the H2 syntax:
+
+[CREATE file](Judo-create-table.sql)
+
+
+2. A file containing INSERT statements to provide data for all the tables created:
+
+[INSERT file](Judo-insert-data.sql)
+
+
+3. A file containing SELECT statements providing useful information:
+
+[SELECT file](Judo-select.sql)
+
+-----
+## Entity-Relationship (ER)
 
 ER diagrams provide a way to visualize the relationships between entities, making it easier to understand the data being stored in a database, and to identify any potential issues or areas for improvement in the design. This helps to ensure that the database is organized, efficient, and flexible enough to accommodate future changes.
 
 ![This is an image](Judo-ER-diagram-fin.png)
 
 -----
-## A text file containing CREATE orders using the H2 syntax:
 
-[CREATE file](Judo-create-table.sql)
-
------ 
-## A file containing INSERT statements to provide data for all the tables created:
-
-[INSERT file](Judo-insert-data.sql)
-
------
-## A file containing SELECT statements providing useful information:
-
-[SELECT file](Judo-select.sql)
-
------
-The project was created by Ai-My Luong and validated by the supervisor Thomas Broussard at EPITA Paris.
+Note: The project was created by Ai-My Luong and validated by the supervisor Thomas Broussard at EPITA Paris.
